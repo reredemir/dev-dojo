@@ -1,0 +1,17 @@
+@use 'reset';
+@use 'vars' as v;
+
+@font-face {
+  font-family: "Michel";
+  src: url("../assets/fonts/go3v2.ttf");
+}
+
+body {
+  font-family: "Michel", sans-serif;
+  color: black;
+  background-color: v.$color-background;
+}
+
+img {
+  max-width: 100%;
+}
